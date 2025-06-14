@@ -4,16 +4,7 @@ import { ArrowRight, Play } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-gradient-to-br from-gray-50 to-white py-20 lg:py-32">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white/95 to-white/85">
-        <img 
-          src="/lovable-uploads/89dc312e-556d-49f5-9cfd-a7dcccf0ec82.png" 
-          alt="African cityscape" 
-          className="w-full h-full object-cover opacity-20"
-        />
-      </div>
-      
+    <section className="relative bg-gradient-to-br from-gray-50 to-white py-20 lg:py-32">          
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Main Headline */}
